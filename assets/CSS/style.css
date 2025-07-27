@@ -27,8 +27,14 @@ body {
 }
 .filtro {
   background-color: #fff;
-  border: solid 1px;
-  border-color: grey;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 16px;
+  color: #555;
+  width: 100%;
+  max-width: 220px;
+  margin-bottom: 10px;
 }
 .car-icon {
   width: 30px;
@@ -41,4 +47,28 @@ body {
 }
 .footer p {
   margin-top: 0px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+  border-color: darkgrey;
+  background-color: #fff;
+  margin: 20px;
+}
+.button {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 10%;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.car {
+  width: 500px;
+  height: auto;
+}
+.description {
+  margin-bottom: 5px;
 }
