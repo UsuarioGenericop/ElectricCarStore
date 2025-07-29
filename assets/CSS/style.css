@@ -75,8 +75,10 @@ body {
   margin-bottom: 20px;
 }
 .car {
-  width: 500px;
+  width: 100%;
+  max-width: 400px;
   height: auto;
+  object-fit: cover;
 }
 .description {
   margin-bottom: 5px;
@@ -105,6 +107,14 @@ body {
   }
   .main {
     grid-area: main;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .car {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
   }
   .footer {
     grid-area: footer;
