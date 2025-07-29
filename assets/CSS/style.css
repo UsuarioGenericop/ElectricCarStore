@@ -8,7 +8,13 @@ body {
 .header {
   background-color: lightblue;
   font-size: larger;
+}
+.header-items {
   display: flex;
+  align-items: start;
+}
+.computer-view {
+  display: none;
 }
 .nav {
   background-color: lightgray;
@@ -41,7 +47,7 @@ body {
 }
 .car-icon {
   width: 30px;
-  margin: 10px;
+  margin: 15px;
 }
 .socials {
   width: 30px;
@@ -78,6 +84,21 @@ body {
 @media (min-width: 576px) {
   .header {
     grid-area: header;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-items: center;
+  }
+  .header-items {
+    display: flex;
+    align-items: start;
+  }
+  .car-icon {
+    width: 30px;
+    margin-left: 0px;
+  }
+  .computer-view {
+    display: flex;
   }
   .nav {
     grid-area: nav;
